@@ -1,0 +1,58 @@
+.card-subject {
+    background: white;
+    min-height: 100px;
+}
+
+.small-date {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.chapter-current {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sub-sub-head {
+    font-size: 13px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.subject-second-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+    grid-column-gap: 15px;
+}
+
+.grid-col {
+    display: grid;
+    grid-template-rows: .01fr 1fr 1fr 1fr;
+}
+
+.subject-third-row {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-column-gap: 15px;
+}
+
+.hw-checkbox {
+    width: 17px;
+    height: 17px;
+}
+
+.hw-task-name {
+    font-size: 14px;
+}
+
+.hw-single-task-grid ,.backlog-single-task-grid {
+    display: grid;
+    grid-template-columns: .6fr .5fr .4fr .4fr;
+    column-gap: 5px;
+    align-items: center;
+    min-height: 55px
+}
+
+.backlog-single-task-grid {
+    grid-template-columns: .3fr .4fr .35fr .24fr .4fr;
+}

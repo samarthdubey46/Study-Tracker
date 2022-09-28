@@ -1,0 +1,54 @@
+.float-button-down {
+    position: absolute;
+    width: 45%;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    height: 30px;
+
+}
+
+.down-arrow:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #495057;
+    text-shadow: 0 0 10px blue;
+}
+
+.left-box:hover {
+    cursor: pointer;
+    color: #495057;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+}
+
+.badge-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .75rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.hw-hide {
+    max-height: 0;
+    opacity: 0;
+}
+
+.hw-show {
+    max-height: 20rem;
+    opacity: 1;
+}
+
+.hw-down {
+    transition: max-height .18s ease-in-out, opacity .2s ease-in-out;
+}
+
+.badge-question:hover {
+    cursor: pointer;
+    color: #495057;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+}

@@ -1,0 +1,30 @@
+.homework-container .quote{
+}
+.homework-container {
+    min-width:82.5vw;
+    min-height: 89vh;
+    display: flex;
+}
+.left-top{
+    background-image: url("https://dvvwf08ea9qan.cloudfront.net/student/assets/image/bluebg.png");
+    min-height: 150px;
+    background-repeat:no-repeat ;
+    background-size:100% 100% ;
+}
+.left-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.left-hww {
+    width: 330px;
+    float: left;
+    border-right: 1px;
+    display: flex;
+    flex-direction: column;
+    /*min-height: 90vh;*/
+}
+
+.right-hww {
+    width: calc(100% - 330px);
+}
